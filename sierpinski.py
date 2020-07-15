@@ -17,11 +17,11 @@ def sierpinski(l,d):
         t.backward(l)
         t.left(120)
         t.forward(l)
-        sierpinski(l / 2, d - 1)
+        sierpinski(l/2, d-1)
         t.backward(l)
         t.left(120)
         t.forward(l)
-        sierpinski(l / 2, d - 1)
+        sierpinski(l/2, d-1)
         t.backward(l)
         t.left(120)
 
